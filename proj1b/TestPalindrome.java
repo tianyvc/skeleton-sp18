@@ -19,13 +19,13 @@ public class TestPalindrome {
     @Test
     public void testIsPalindrome()
     {
-        assertTrue(palindrome.isPalindorme(""));
-        assertTrue(palindrome.isPalindorme("a"));
-        assertTrue(palindrome.isPalindorme("aba"));
-        assertTrue(palindrome.isPalindorme("aaccbbbccaa"));
+        assertTrue(palindrome.isPalindrome(""));
+        assertTrue(palindrome.isPalindrome("a"));
+        assertTrue(palindrome.isPalindrome("aba"));
+        assertTrue(palindrome.isPalindrome("aaccbbbccaa"));
 
-        assertFalse(palindrome.isPalindorme("ab"));
-        assertFalse(palindrome.isPalindorme("ababba"));
+        assertFalse(palindrome.isPalindrome("ab"));
+        assertFalse(palindrome.isPalindrome("ababba"));
     }
 
     @Test
